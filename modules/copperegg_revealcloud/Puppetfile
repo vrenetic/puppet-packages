@@ -1,3 +1,3 @@
-mod 'cargomedia/daemon',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/daemon',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/daemon'

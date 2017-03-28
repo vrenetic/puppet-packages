@@ -1,10 +1,10 @@
 {
-  "name": "cargomedia-polipo",
+  "name": "vrenetic-polipo",
   "version": "0.0.1",
-  "author": "Cargo Media",
+  "author": "VRenetic Tech",
   "license": "MIT",
   "summary": "polipo",
-  "source": "https://github.com/cargomedia/puppet-packages",
+  "source": "https://github.com/vrenetic/puppet-packages",
   "operatingsystem_support": [
     {
       "operatingsystem": "Debian",

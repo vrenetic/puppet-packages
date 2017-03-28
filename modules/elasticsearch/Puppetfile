@@ -1,15 +1,15 @@
-mod 'cargomedia/apt',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/apt',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/apt'
 
-mod 'cargomedia/java',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/java',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/java'
 
-mod 'cargomedia/helper',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/helper',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/helper'
 
-mod 'cargomedia/monit',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/monit',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/monit'

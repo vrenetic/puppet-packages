@@ -1,13 +1,13 @@
-class apt::source::cargomedia {
+class apt::source::vrenetic {
 
-  apt::source { 'cargomedia':
+  apt::source { 'vrenetic':
     entries => [
-      "deb [arch=amd64] http://debian-packages.cargomedia.ch ${::facts['lsbdistcodename']} main",
+      "deb [arch=amd64] http://debian-packages.vrenetic.io ${::facts['lsbdistcodename']} main",
     ],
     keys    => {
-      'cargomedia' => {
+      'vrenetic' => {
         'key' => '4A45CD8B',
-        'key_url' => 'http://debian-packages.cargomedia.ch/conf/signing.key',
+        'key_url' => 'http://debian-packages.vrenetic.io/conf/signing.key',
       }
     },
   }

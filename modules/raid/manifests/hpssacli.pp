@@ -1,7 +1,7 @@
 class raid::hpssacli {
 
   require 'apt'
-  require 'apt::source::cargomedia'
+  require 'apt::source::vrenetic'
 
   package { 'hpssacli':
     provider => 'apt',

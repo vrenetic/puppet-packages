@@ -1,7 +1,7 @@
 class mysql_proxy ($host = '127.0.0.1', $port = 4040, $backend_addresses) {
 
   require 'apt'
-  require 'apt::source::cargomedia'
+  require 'apt::source::vrenetic'
 
   file {
     '/etc/mysql-proxy':
@@ -30,7 +30,7 @@ class mysql_proxy ($host = '127.0.0.1', $port = 4040, $backend_addresses) {
   package { 'mysql-proxy':
     ensure   => present,
     provider => 'apt',
-    require  => Class['apt::source::cargomedia'],
+    require  => Class['apt::source::vrenetic'],
   }
 
   daemon { 'mysql-proxy':

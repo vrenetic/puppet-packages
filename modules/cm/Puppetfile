@@ -1,90 +1,90 @@
 mod 'puppetlabs/stdlib',
   :git => 'git://github.com/puppetlabs/puppetlabs-stdlib.git'
 
-mod 'cargomedia/composer',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/composer',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/composer'
 
-mod 'cargomedia/php5',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/php5',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/php5'
 
-mod 'cargomedia/phpunit',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/phpunit',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/phpunit'
 
-mod 'cargomedia/uglify',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/uglify',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/uglify'
 
-mod 'cargomedia/browserify',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/browserify',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/browserify'
 
-mod 'cargomedia/autoprefixer',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/autoprefixer',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/autoprefixer'
 
-mod 'cargomedia/foreman',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/foreman',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/foreman'
 
-mod 'cargomedia/foreman_systemd',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/foreman_systemd',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/foreman_systemd'
 
-mod 'cargomedia/mysql',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/mysql',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/mysql'
 
-mod 'cargomedia/redis',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/redis',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/redis'
 
-mod 'cargomedia/memcached',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/memcached',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/memcached'
 
-mod 'cargomedia/elasticsearch',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/elasticsearch',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/elasticsearch'
 
-mod 'cargomedia/gearman',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/gearman',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/gearman'
 
-mod 'cargomedia/socket_redis',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/socket_redis',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/socket_redis'
 
-mod 'cargomedia/nginx',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/nginx',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/nginx'
 
-mod 'cargomedia/bipbip',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/bipbip',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/bipbip'
 
-mod 'cargomedia/mongodb',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/mongodb',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/mongodb'
 
-mod 'cargomedia/cm_janus',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/cm_janus',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/cm_janus'
 
-mod 'cargomedia/janus',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/janus',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/janus'
 
-mod 'cargomedia/ufw',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/ufw',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/ufw'
 
-mod 'cargomedia/phantomjs',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/phantomjs',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/phantomjs'
 
-mod 'cargomedia/systemd',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/systemd',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/systemd'

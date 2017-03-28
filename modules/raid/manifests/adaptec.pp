@@ -2,13 +2,13 @@ class raid::adaptec {
 
   require 'apt'
   require 'unzip'
-  require 'apt::source::cargomedia'
+  require 'apt::source::vrenetic'
   require 'python'
 
   package { 'arcconf':
     ensure   => present,
     provider => 'apt',
-    require  => Class['apt::source::cargomedia'],
+    require  => Class['apt::source::vrenetic'],
   }
 
   file { '/usr/local/sbin/aacraid-status':

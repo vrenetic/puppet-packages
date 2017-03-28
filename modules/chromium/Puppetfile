@@ -1,15 +1,15 @@
-mod 'cargomedia/apt',
-   :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/apt',
+   :git => 'git@github.com:vrenetic/puppet-packages.git',
    :path => 'modules/apt'
 
-mod 'cargomedia/lightdm',
-   :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/lightdm',
+   :git => 'git@github.com:vrenetic/puppet-packages.git',
    :path => 'modules/lightdm'
 
-mod 'cargomedia/accountsservice',
-   :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/accountsservice',
+   :git => 'git@github.com:vrenetic/puppet-packages.git',
    :path => 'modules/accountsservice'
 
-mod 'cargomedia/xpra',
-   :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/xpra',
+   :git => 'git@github.com:vrenetic/puppet-packages.git',
    :path => 'modules/xpra'

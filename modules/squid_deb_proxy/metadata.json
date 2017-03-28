@@ -1,10 +1,10 @@
 {
-  "name": "cargomedia-squid_deb_proxy",
+  "name": "vrenetic-squid_deb_proxy",
   "version": "0.0.1",
-  "author": "Cargo Media",
+  "author": "VRenetic Tech",
   "license": "MIT",
   "summary": "Squid proxy with special configuration for caching deb packages",
-  "source": "https://github.com/cargomedia/puppet-packages",
+  "source": "https://github.com/vrenetic/puppet-packages",
   "operatingsystem_support": [
     {
       "operatingsystem": "Debian",

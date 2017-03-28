@@ -15,7 +15,7 @@ class coturn (
 ) {
 
   require 'apt'
-  require 'apt::source::cargomedia'
+  require 'apt::source::vrenetic'
 
   user { 'turnserver':
     ensure => present,

@@ -1,10 +1,10 @@
 {
-  "name": "cargomedia-systemd",
+  "name": "vrenetic-systemd",
   "version": "0.0.1",
-  "author": "Cargo Media",
+  "author": "VRenetic Tech",
   "license": "MIT",
   "summary": "systemd",
-  "source": "https://github.com/cargomedia/puppet-packages",
+  "source": "https://github.com/vrenetic/puppet-packages",
   "operatingsystem_support": [
     {
       "operatingsystem": "Debian",

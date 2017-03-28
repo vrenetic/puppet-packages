@@ -12,6 +12,6 @@ describe 'monit' do
   end
 
   describe file('/etc/monit/monitrc') do
-    its(:content) { should match /[vagrantup\.com|cargomedia\.net]/ }
+    its(:content) { should match /[vagrantup\.com|vrenetic\.net]/ }
   end
 end

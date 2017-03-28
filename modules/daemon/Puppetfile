@@ -1,14 +1,14 @@
 mod 'puppetlabs/stdlib',
   :git => 'git://github.com/puppetlabs/puppetlabs-stdlib.git'
 
-mod 'cargomedia/systemd',
-   :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/systemd',
+   :git => 'git@github.com:vrenetic/puppet-packages.git',
    :path => 'modules/systemd'
 
-mod 'cargomedia/monit',
-   :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/monit',
+   :git => 'git@github.com:vrenetic/puppet-packages.git',
    :path => 'modules/monit'
 
-mod 'cargomedia/sudo',
-   :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/sudo',
+   :git => 'git@github.com:vrenetic/puppet-packages.git',
    :path => 'modules/sudo'

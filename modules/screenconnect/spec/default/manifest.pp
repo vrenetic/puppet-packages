@@ -1,7 +1,7 @@
 node default {
 
   class { 'screenconnect':
-    account => 'cargomedia',
+    account => 'vrenetic',
     server  => 'myInstanceServer.screenconnect.com',
     key     => 'mySecretKey',
   }

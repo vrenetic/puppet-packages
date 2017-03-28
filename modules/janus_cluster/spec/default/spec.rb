@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'cargomedia::janus_cluster' do
+describe 'vrenetic::janus_cluster' do
 
   describe service('janus_origin1') do
     it { should be_enabled }

@@ -15,7 +15,7 @@ class janus::common_rtpbroadcast(
     require 'build::dev::libini_config'
 
     $src_path = '/opt/janus/janus-gateway-rtpbroadcast'
-    $src_remote = $src_repo ? { undef => 'https://github.com/cargomedia/janus-gateway-rtpbroadcast.git',  default => $src_repo }
+    $src_remote = $src_repo ? { undef => 'https://github.com/vrenetic/janus-gateway-rtpbroadcast.git',  default => $src_repo }
     git::repository { 'janus-gateway-rtpbroadcast':
       remote    => $src_remote,
       directory => $src_path,

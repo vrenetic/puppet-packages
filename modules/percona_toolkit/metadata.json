@@ -1,10 +1,10 @@
 {
-  "name": "cargomedia-percona_toolkit",
+  "name": "vrenetic-percona_toolkit",
   "version": "0.0.1",
-  "author": "Cargo Media",
+  "author": "VRenetic Tech",
   "license": "MIT",
   "summary": "percona_toolkit",
-  "source": "https://github.com/cargomedia/puppet-packages",
+  "source": "https://github.com/vrenetic/puppet-packages",
   "operatingsystem_support": [
     {
       "operatingsystem": "Debian",

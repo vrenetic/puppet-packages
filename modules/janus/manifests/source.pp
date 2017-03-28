@@ -4,7 +4,7 @@ class janus::source (
 ) {
 
   require 'apt'
-  require 'apt::source::cargomedia'
+  require 'apt::source::vrenetic'
   require 'git'
   require 'build::automake'
   require 'build::autoconf'
