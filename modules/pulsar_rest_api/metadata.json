@@ -1,10 +1,10 @@
 {
-  "name": "cargomedia-pulsar_rest_api",
+  "name": "vrenetic-pulsar_rest_api",
   "version": "0.0.1",
-  "author": "Cargo Media",
+  "author": "VRenetic Tech",
   "license": "MIT",
   "summary": "pulsar_rest_api",
-  "source": "https://github.com/cargomedia/puppet-packages",
+  "source": "https://github.com/vrenetic/puppet-packages",
   "operatingsystem_support": [
     {
       "operatingsystem": "Debian",

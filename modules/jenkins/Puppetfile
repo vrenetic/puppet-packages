@@ -1,23 +1,23 @@
-mod 'cargomedia/monit',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/monit',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/monit'
 
-mod 'cargomedia/apt',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/apt',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/apt'
 
-mod 'cargomedia/ntp',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/ntp',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/ntp'
 
-mod 'cargomedia/ssh',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/ssh',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/ssh'
 
-mod 'cargomedia/unzip',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/unzip',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/unzip'
 
-mod 'cargomedia/ufw',
-    :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/ufw',
+    :git => 'git@github.com:vrenetic/puppet-packages.git',
     :path => 'modules/ufw'

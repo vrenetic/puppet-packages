@@ -2,7 +2,7 @@ class graphene (
   $version = 'latest',
 ) {
 
-  require 'apt::source::cargomedia'
+  require 'apt::source::vrenetic'
 
   package { 'graphene':
     ensure => $version,

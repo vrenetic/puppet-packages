@@ -1,7 +1,7 @@
-mod 'cargomedia/janus',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/janus',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/janus'
 
-mod 'cargomedia/ffmpeg',
-  :git => 'git@github.com:cargomedia/puppet-packages.git',
+mod 'vrenetic/ffmpeg',
+  :git => 'git@github.com:vrenetic/puppet-packages.git',
   :path => 'modules/ffmpeg'

@@ -4,7 +4,7 @@ class janus::common (
 ) {
 
   require 'apt'
-  require 'apt::source::cargomedia'
+  require 'apt::source::vrenetic'
 
   user { 'janus':
     ensure => present,

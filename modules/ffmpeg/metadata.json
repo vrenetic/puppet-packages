@@ -1,10 +1,10 @@
 {
-  "name": "cargomedia-ffmpeg",
+  "name": "vrenetic-ffmpeg",
   "version": "0.0.3",
-  "author": "Cargo Media",
+  "author": "VRenetic Tech",
   "license": "MIT",
   "summary": "ffmpeg",
-  "source": "https://github.com/cargomedia/puppet-packages",
+  "source": "https://github.com/vrenetic/puppet-packages",
   "operatingsystem_support": [
     {
       "operatingsystem": "Debian",

@@ -1,6 +1,6 @@
 class gstreamer::plugins::entrans {
 
-  require 'apt::source::cargomedia'
+  require 'apt::source::vrenetic'
   require 'gstreamer::plugins::base'
 
   package { 'gst-entrans':

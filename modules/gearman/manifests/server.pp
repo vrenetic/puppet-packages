@@ -11,7 +11,7 @@ class gearman::server(
 ) {
 
   require 'apt'
-  require 'apt::source::cargomedia'
+  require 'apt::source::vrenetic'
 
   $fullname = 'gearman-job-server'
 
@@ -33,7 +33,7 @@ class gearman::server(
   package { $fullname:
     ensure   => present,
     provider => 'apt',
-    require  => [Class['apt::source::cargomedia'], Daemon[$fullname]],
+    require  => [Class['apt::source::vrenetic'], Daemon[$fullname]],
   }
 
   @bipbip::entry { $fullname:

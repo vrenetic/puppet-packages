@@ -1,7 +1,7 @@
 class raid::lsi_megaraidsas {
 
   require 'apt'
-  require 'apt::source::cargomedia'
+  require 'apt::source::vrenetic'
   require 'python'
 
   package { 'storcli':

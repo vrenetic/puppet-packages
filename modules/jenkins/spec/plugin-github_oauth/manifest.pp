@@ -5,7 +5,7 @@ node default {
   }
 
   class { 'jenkins::plugin::github_oauth':
-    organization_name_list => ['cargomedia'],
+    organization_name_list => ['vrenetic'],
     admin_user_name_list   => ['njam'],
     client_id              => 'xxx',
     client_secret          => 'yyy',

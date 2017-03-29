@@ -27,7 +27,7 @@ node default {
 
   file { '/tmp/index.html':
     ensure  => file,
-    content => '{"success": { "result": {}}}', # workaround with fake cm-app-api https://github.com/cargomedia/puppet-packages/issues/1196
+    content => '{"success": { "result": {}}}', # workaround with fake cm-app-api https://github.com/vrenetic/puppet-packages/issues/1196
   }
 
   nginx::resource::vhost { 'cm-api-mock':

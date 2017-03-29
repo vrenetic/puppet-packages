@@ -1,4 +1,4 @@
 node default {
 
-  class { 'apt::source::cargomedia': }
+  class { 'apt::source::vrenetic': }
 }

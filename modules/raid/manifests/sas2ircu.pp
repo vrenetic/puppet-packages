@@ -1,7 +1,7 @@
 class raid::sas2ircu {
 
   require 'apt'
-  require 'apt::source::cargomedia'
+  require 'apt::source::vrenetic'
   require 'python'
 
   package { 'sas2ircu':

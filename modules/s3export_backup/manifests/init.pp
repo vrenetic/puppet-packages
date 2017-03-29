@@ -9,7 +9,7 @@ class s3export_backup (
   require 'cm::application'
   require 'gdisk'
 
-  composer::project { 'cargomedia/s3export_backup':
+  composer::project { 'vrenetic/s3export_backup':
     target    => '/usr/local/lib/s3export_backup',
     version   => $version,
     stability => 'dev',

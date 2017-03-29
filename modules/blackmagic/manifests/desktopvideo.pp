@@ -10,7 +10,7 @@ class blackmagic::desktopvideo {
     provider => 'apt',
   }
 
-  $deb_url = 'http://puppet-packages.cargomedia.ch/blackmagic/desktopvideo_10.6.2a3_amd64.deb'
+  $deb_url = 'http://puppet-packages.vrenetic.io/blackmagic/desktopvideo_10.6.2a3_amd64.deb'
 
   helper::script { 'install blackmagic desktopvideo':
     content => template("${module_name}/desktopvideo/install.sh.erb"),

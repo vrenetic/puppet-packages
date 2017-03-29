@@ -1,10 +1,10 @@
 {
-  "name": "cargomedia-xorg",
+  "name": "vrenetic-xorg",
   "version": "0.0.1",
-  "author": "Cargo Media",
+  "author": "VRenetic Tech",
   "license": "MIT",
   "summary": "xorg",
-  "source": "https://github.com/cargomedia/puppet-packages",
+  "source": "https://github.com/vrenetic/puppet-packages",
   "operatingsystem_support": [
     {
       "operatingsystem": "Ubuntu",
