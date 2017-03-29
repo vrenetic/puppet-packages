@@ -1,11 +1,11 @@
-puppet-packages [![Build Status](http://ci.cargomedia.ch:8080/buildStatus/icon?job=cargomedia-puppet-packages)](http://ci.cargomedia.ch:8080/job/cargomedia-puppet-packages/)
+puppet-packages [![Build Status](http://ci.vrenetic.ch:8080/buildStatus/icon?job=vrenetic-puppet-packages)](http://ci.vrenetic.ch:8080/job/vrenetic-puppet-packages/)
 ===============
 Reusable puppet modules for Debian Wheezy and Ubuntu Vivid Vervet.
 
 Install puppet
 --------------
 ```sh
-curl -Ls https://raw.github.com/cargomedia/puppet-packages/master/scripts/puppet-install.sh | bash
+curl -Ls https://raw.github.com/vrenetic/puppet-packages/master/scripts/puppet-install.sh | bash
 ```
 
 Initial puppet run
